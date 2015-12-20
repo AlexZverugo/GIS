@@ -1,0 +1,12 @@
+nrel_mark_top_of_water_level
+<- sc_const;
+<- sc_node_norole_relation;
+=> nrel_main_idtf: nrel_name_of_features_that_characterize_an_object_map_OKRB_012_2007:
+    [отметка верхнего уровня воды*]
+    (*
+    <-lang_ru;;
+    *);=> nrel_feature_code_of_OKRB_012_2007:
+    [25]
+    (*
+    <-text;;
+    *);;

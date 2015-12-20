@@ -1,0 +1,21 @@
+nrel_classification_code_of_OKRB_012_2007
+=> nrel_main_idtf:
+	[Классификационный код ОКРБ 012-2007*]
+	(*
+	<- lang_ru;;
+	*);
+	[Classification code of OKRB 012 2007*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain:
+	concept_mapped_objects;
+=> nrel_second_domain: 
+	text;
+<-sc_const;
+	
+<-sc_node_norole_relation;;
+
+
+

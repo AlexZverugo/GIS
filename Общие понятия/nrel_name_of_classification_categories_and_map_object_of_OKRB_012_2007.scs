@@ -1,0 +1,20 @@
+nrel_name_of_classification_categories_and_map_object_of_OKRB_012_2007
+<-sc_const;
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Наименование классификационной группировки и объекта карты по ОКРБ 012-2007*]
+	(*
+	<- lang_ru;;
+	*);
+	[Name of classification categories and map object of OKRB 012-2007*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain:
+	concept_mapped_objects;
+=> nrel_second_domain: 
+	text;
+<-sc_const;
+	
+<-sc_node_norole_relation;;

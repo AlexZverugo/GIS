@@ -1,0 +1,6 @@
+nrel_name_of_features_that_characterize_an_object_map_OKRB_012_2007
+<- sc_const;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [наименование признака, характеризующего объект карты*]
+    (* <- lang_ru;; *);;
