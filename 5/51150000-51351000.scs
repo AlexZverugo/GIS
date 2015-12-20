@@ -1,0 +1,322 @@
+concept_water_mill
+=> nrel_main_idtf: 
+[мельницы водяные] (*<- lang_ru;;*); 
+[water-mill] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Мельницы, имеющие значения ориентира, мельницы водяные] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_own_name_label_text; 
+=> nrel_classification_code_of_OKRB_012_2007: [51151000](*<- text;;*);;
+
+concept_wind_mill
+=> nrel_main_idtf: 
+[мельницы ветряные] (*<- lang_ru;;*); 
+[wind mill] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Мельницы, имеющие значения ориентира, мельницы ветряные] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_construction_material;
+=> nrel_classification_code_of_OKRB_012_2007: [51152000](*<- text;;*);;
+
+concept_mill_power
+=> nrel_main_idtf:
+[Мельницы с электрическим приводом](*<- lang_ru;;*);
+[mill power](*<- lang_en;;*);
+=> nrel_name_of_classification_categories_and_map_object:
+[Мельницы, имеющие значения ориентира](*<- lang_ru;;*);
+=> nrel_classification_code_of_OKRB_012_2007: [51153000](*<- text;;*);
+<= nrel_subdividing:
+	...
+	(*
+	  -> concept_mill_power_with_tubes;;
+	  -> concept_mill_power_without_tubes;;
+	  -> concept_sawmill;;
+	  -> concept_kiln;;	
+	*);;
+
+concept_mill_power_with_tubes
+=> nrel_main_idtf: 
+[мельницы с электрическим приводом с трубами] (*<- lang_ru;;*); 
+[mill power with tubes] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Мельницы с электрическим приводом, имеющие значения ориентира, мельницы с электрическим приводом с трубами] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_internal_structure_of_object;
+=> nrel_classification_code_of_OKRB_012_2007: [51153100](*<- text;;*);;
+
+concept_mill_power_without_tubes
+=> nrel_main_idtf: 
+[мельницы с электрическим приводом без трубами] (*<- lang_ru;;*); 
+[mill power without tubes] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Мельницы с электрическим приводом, имеющие значения ориентира, мельницы с электрическим приводом без трубами] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_internal_structure_of_object;
+=> nrel_classification_code_of_OKRB_012_2007: [51153200](*<- text;;*);;
+
+
+concept_sawmill
+=> nrel_main_idtf: 
+[лесопильни] (*<- lang_ru;;*); 
+[sawmill] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Мельницы с электрическим приводом, имеющие значения ориентира, лесопильни] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_internal_structure_of_object;
+=> nrel_classification_code_of_OKRB_012_2007: [51160000](*<- text;;*);;
+
+
+
+concept_kiln
+=> nrel_main_idtf: 
+[печи для обжига] (*<- lang_ru;;*); 
+[kiln] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Мельницы с электрическим приводом, имеющие значения ориентира, печи для обжига] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_for_building;
+=> nrel_classification_code_of_OKRB_012_2007: [51170000](*<- text;;*);;
+
+
+concept_warehouses_gas_stations
+=> nrel_main_idtf:
+[Склады, заправочные станции](*<- lang_ru;;*);
+[Warehouses, gas stations](*<- lang_en;;*);
+=> nrel_name_of_classification_categories_and_map_object:
+[Склады, заправочные станции, имеющие значения ориентира](*<- lang_ru;;*);
+=> nrel_classification_code_of_OKRB_012_2007: [51200000](*<- text;;*);
+<= nrel_subdividing:
+	...
+	(*
+	  -> concept_open_warehouses;;
+	  -> concept_fuel_depots;;
+	  -> concept_warehouses_closed;;
+	  -> concept_stock;;	
+	  -> concept_vessels_for_gas;;
+	  -> concept_fuel_station;;
+	*);;
+
+
+concept_open_warehouses
+=> nrel_main_idtf: 
+[склады открытого типа] (*<- lang_ru;;*); 
+[open warehouses] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Склады, имеющие значения ориентира, склады открытого типа] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_internal_structure_of_object;
+nrel_for_building;
+=> nrel_classification_code_of_OKRB_012_2007: [51211000](*<- text;;*);;
+
+
+
+
+concept_fuel_depots
+=> nrel_main_idtf: 
+[склады горючего] (*<- lang_ru;;*); 
+[fuel depots] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Склады, имеющие значения ориентира, склады горючего] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_internal_structure_of_object;
+nrel_importance_of_object;
+nrel_cross_sectional_shape_of_object_building;
+nrel_location_symbol_size_of_buildings_and_structures;
+nrel_for_building;
+=> nrel_classification_code_of_OKRB_012_2007: [51211100](*<- text;;*);;
+
+concept_warehouses_closed
+=> nrel_main_idtf: 
+[склады закрытого типа(здания, строения)] (*<- lang_ru;;*); 
+[warehouses closed] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Склады, имеющие значения ориентира, склады закрытого типа(здания, строения)] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text; 
+nrel_internal_structure_of_object;
+nrel_importance_of_object;
+nrel_cross_sectional_shape_of_object_building;
+nrel_location_symbol_size_of_buildings_and_structures;
+nrel_for_building;
+=> nrel_classification_code_of_OKRB_012_2007: [51212000](*<- text;;*);;
+
+
+
+
+concept_stock
+=> nrel_main_idtf: 
+[склады] (*<- lang_ru;;*); 
+[stocks] (*<- lang_en;;*); 
+=> nrel_name_of_classification_categories_and_map_object: 
+[Склады, заправочные станции, имеющие значения ориентира, склады] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text;
+nrel_nature_of_fire_resistance;
+
+nrel_internal_structure_of_object;
+nrel_importance_of_object;
+
+=> nrel_classification_code_of_OKRB_012_2007: [51210000](*<- text;;*);;
+
+
+concept_fuel_station
+=> nrel_main_idtf: 
+[заправочные станции, бензоколонки, колонки дизельного топлива] (*<- lang_ru;;*); 
+[gas stations, gas stations, speakers diesel] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Склады, заправочные станции, имеющие значения ориентира, заправочные станции, бензоколонки, колонки дизельного топлива] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_own_name_label_text;
+nrel_nature_of_fire_resistance;
+nrel_internal_structure_of_object;
+nrel_importance_of_object;
+=> nrel_classification_code_of_OKRB_012_2007: [51220000](*<- text;;*);;
+
+
+concept_vessels_for_gas
+=> nrel_main_idtf: 
+[отдельные цистерны, банки и газгольдеры] (*<- lang_ru;;*); 
+[separate tanks, cans and gas tanks] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Склады, заправочные станции, имеющие значения ориентира, отдельные цистерны, банки и газгольдеры] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_own_name_label_text;
+nrel_importance_of_object;
+=> nrel_classification_code_of_OKRB_012_2007: [51230000](*<- text;;*);;
+
+
+
+concept_communications
+=> nrel_main_idtf:
+[Коммуникации](*<- lang_ru;;*);
+[Communications](*<- lang_en;;*);
+=> nrel_name_of_classification_categories_and_map_object:
+[Коммуникации, имеющие значения ориентира](*<- lang_ru;;*);
+=> nrel_classification_code_of_OKRB_012_2007: [51200000](*<- text;;*);
+<= nrel_subdividing:
+	...
+	(*
+	  -> concept_pipeline;;
+	  -> concept_pipeline_support;;
+	  -> concept_power_lines;;
+	  -> concept_communication_lines_and_hardware_control;;	
+	  -> concept_trays_descent_woods_and_other_materials;;
+	  -> concept_inverted_siphons_pipeline;;
+	  -> concept_supports_siphons_pipeline;;	
+	*);;
+
+
+
+concept_pipeline
+=> nrel_main_idtf: 
+[трубопровод] (*<- lang_ru;;*); 
+[pipeline] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, трубопровод] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_state;
+nrel_own_name_label_text;
+nrel_nature_of_location_relative_to_earth_water_surface;
+nrel_number_of_power_lines_and_pipe_lines_and_rows_of_trees_and_bridge_openings;
+nrel_type_of_construction;
+=> nrel_classification_code_of_OKRB_012_2007: [51310000](*<- text;;*);;
+
+
+concept_pipeline_support
+=> nrel_main_idtf: 
+[опоры трубопровода] (*<- lang_ru;;*); 
+[pipeline support] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, опоры трубопровода] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+=> nrel_classification_code_of_OKRB_012_2007: [51311000](*<- text;;*);;
+
+
+concept_power_lines
+=> nrel_main_idtf: 
+[линии электропередач] (*<- lang_ru;;*); 
+[power lines] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, линии электропередач] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_state;
+nrel_own_name_label_text;
+nrel_nature_of_location_relative_to_earth_water_surface;
+nrel_voltage;
+nrel_bearing_type;
+nrel_number_of_power_lines_and_pipe_lines_and_rows_of_trees_and_bridge_openings;
+=> nrel_classification_code_of_OKRB_012_2007: [51320000](*<- text;;*);;
+
+
+concept_communication_lines_and_hardware_control
+=> nrel_main_idtf: 
+[линии связи и технических средств управления] (*<- lang_ru;;*); 
+[communication lines and hardware control] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, линии связи и технических средств управления] (*<- lang_ru;;*); 
+=> nrel_first_domain: 
+nrel_height;
+nrel_state;
+nrel_nature_of_location_relative_to_earth_water_surface;
+nrel_number_of_power_lines_and_pipe_lines_and_rows_of_trees_and_bridge_openings;
+=> nrel_classification_code_of_OKRB_012_2007: [51330000](*<- text;;*);;
+
+concept_trays_descent_woods_and_other_materials
+=> nrel_main_idtf: 
+[лотки для спуска леса и других материалов] (*<- lang_ru;;*); 
+[trays descent woods and other materials] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, лотки для спуска леса и других материалов] (*<- lang_ru;;*); 
+=> nrel_classification_code_of_OKRB_012_2007: [51340000](*<- text;;*);;
+
+concept_inverted_siphons_pipeline
+=> nrel_main_idtf: 
+[дюкеры на трубопроводах] (*<- lang_ru;;*); 
+[inverted siphons pipeline] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, дюкеры на трубопроводах] (*<- lang_ru;;*); 
+=> nrel_classification_code_of_OKRB_012_2007: [51350000](*<- text;;*);;
+
+concept_supports_siphons_pipeline
+=> nrel_main_idtf: 
+[опоры дюкеров на трубопроводах] (*<- lang_ru;;*); 
+[supports siphons pipeline] (*<- lang_en;;*);  
+=> nrel_name_of_classification_categories_and_map_object: 
+[Коммуникации, имеющие значения ориентира, опоры дюкеров на трубопроводах] (*<- lang_ru;;*); 
+=> nrel_classification_code_of_OKRB_012_2007: [51351000](*<- text;;*);;
+
+
+concept_mills
+=> nrel_main_idtf:
+[Мельницы](*<- lang_ru;;*);
+[Mills](*<- lang_en;;*);
+=> nrel_name_of_classification_categories_and_map_object:
+[Мельницы, имеющие значения ориентира](*<- lang_ru;;*);
+=> nrel_classification_code_of_OKRB_012_2007: [51150000](*<- text;;*);
+<= nrel_subdividing:
+	...
+	(*
+	  -> concept_water_mill;;
+	  -> concept_wind_mill;;
+	*);;
+
+
